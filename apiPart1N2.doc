@@ -1,0 +1,51 @@
+base url
+https://swapi.dev/api/
+
+
+Darth Vader = https://swapi.dev/api/people/4/
+height 202
+
+Alderaan = https://swapi.dev/api/planets/2/
+population of the planet Alderaan = "population": "2000000000",
+
+
+Millennium Falcon = https://swapi.dev/api/starships/10/
+"manufacturer": "Corellian Engineering Corporation",
+ 
+ 
+ C-3PO = https://swapi.dev/api/people/2/
+ https://swapi.dev/api/species/2/
+"name": "Droid",
+
+Obi-Wan Kenobi = https://swapi.dev/api/people/10/
+"films": [
+        "https://swapi.dev/api/films/1/", 
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/",
+        "https://swapi.dev/api/films/4/",
+        "https://swapi.dev/api/films/5/",
+        "https://swapi.dev/api/films/6/"
+    ],
+
+    "title": "A New Hope",
+     "title": "The Empire Strikes Back",
+     "title": "Return of the Jedi",
+     "title": "The Phantom Menace",
+     "title": "Attack of the Clones",
+     "title": "Revenge of the Sith",
+
+     https://swapi.dev/api/starships/?search=Millennium+Falcon
+
+
+     part 2
+
+    1. format is JSON
+    2. returns data in JSON
+    3. https://practiceapi.devmountain.com/api/posts/555
+    4. 200 ok, 400 bad request, 500 internal server error
+    5. https://practiceapi.devmountain.com/api/posts/  josh
+    6. https://practiceapi.devmountain.com/api/posts?id=1538 black
+    7. https://practiceapi.devmountain.com/api/posts/filter?text=blue
+    8. application/json; charset=utf-8
+    9. 409 status if the update conflicts with existing data
+    10. you can get your data code 200 or you can get a 400 bad request or 404 error
